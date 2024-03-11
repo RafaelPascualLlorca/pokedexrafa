@@ -1,6 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+#kanto {
+    background-image: url(../img/kanto-map.jpeg);
+}
+        
+* {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 #ini {
     display: flex;
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.ciales{
+    width: 33%;
+    height: 300px;
+}
+
+#a ,#f ,#p {
+    width: 50%;
+}
+
+#a{
+    background-color: aqua ;
+}
+
+#f{
+    background-color: orangered ;
+}
+
+#p{
+    background-color: greenyellow;
+}
+#pok {
+    background-color: rgb(75, 52, 52);
+}
+
+#sec1 {
+    width: 100%;
+    display: flex;
+}
+
+#art1{
+    width: 25%;
+}
+
+#art2 {
+    width: 75%;
+}
+
+#fuego {
+    color: white;
+    background-color: orange;
+    width: 13%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.fon {
+background-image: url(../img/fondo.jpg);
+}
+
+.deb {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.water {
+    font-size: 25px;
+    background-color: rgb(11, 133, 189);
+    margin-left: 30px;
+    width: 7%;
+}
+
+.tierra {
+    font-size: 25px;
+    background-color: beige;
+    margin-left: 30px;
+    width: 7%;
+}
+
+.rock {
+    font-size: 25px;
+    background-color: burlywood;
+    margin-left: 30px;
+    width: 7%;
+}
+
+.debi {
+    width: 100%;
+}
+
+.evo {
+    text-align: center;
+}
+
+.luciones {
+    width: 33%;
+    background-color: gray;
+    border-radius: 20%;
+}
+
+.medio {
+    text-align: center;
+}
+
+.volver {
+    text-align: center;
+}
+
+.vol {
+    font-size: 25px;
+    color: red;
 }
