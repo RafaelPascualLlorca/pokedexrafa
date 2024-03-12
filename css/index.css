@@ -126,7 +126,6 @@ background-image: url(../img/fondo.jpg);
 }
 
 .wing {
-    color: rgb(0, 0, 0);
     background-color: rgb(147, 228, 208);
     width: 9%;
     font-size: 25px;
@@ -179,4 +178,18 @@ background-image: url(../img/fondo.jpg);
 
 .type {
     display: flex;
+}
+
+.venom {
+    background-color: rgb(207, 115, 232);
+    width: 9%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.cold {
+    font-size: 25px;
+    background-color: rgb(68, 216, 216);
+    margin-left: 30px;
+    width: 8%;
 }
