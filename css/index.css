@@ -99,6 +99,7 @@ background-image: url(../img/fondo.jpg);
 
 .debi {
     width: 100%;
+    display: flex;
 }
 
 .evo {
@@ -137,4 +138,45 @@ background-image: url(../img/fondo.jpg);
     background-color: rgb(233, 222, 17);
     margin-left: 30px;
     width: 10%;
+}
+
+.plant {
+    font-size: 25px;
+    background-color: rgb(115, 242, 86);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.fight {
+    font-size: 25px;
+    background-color: rgb(217, 106, 46);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.sine {
+    font-size: 25px;
+    background-color: rgb(37, 36, 43);
+    margin-left: 30px;
+    width: 11%;
+    color: white;
+}
+
+.bicho {
+    font-size: 25px;
+    background-color: rgb(40, 91, 29);
+    margin-left: 30px;
+    width: 8%;
+    color: white;
+}
+
+.hada {
+    font-size: 25px;
+    background-color: rgb(224, 118, 222);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.type {
+    display: flex;
 }
