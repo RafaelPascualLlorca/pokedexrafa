@@ -202,9 +202,38 @@ background-image: url(../img/fondo.jpg);
     }
 }
 
+@media screen and (max-width:800px ){
+
+    .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
+        width: 50%;
+    }
+    
+    .debi {
+        width: 100%;
+        display: block;
+    }
+
+    #art1{
+        width: 50%;
+    }
+    
+    #art2 {
+        width: 50%;
+    }
+}
+
+
 @media screen and (max-width:600px ){
 
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
+        width: 50%;
+    }
+
+    #art1{
+        width: 50%;
+    }
+    
+    #art2 {
         width: 50%;
     }
 }
