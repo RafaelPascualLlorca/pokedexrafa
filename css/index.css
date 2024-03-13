@@ -12,19 +12,45 @@
 }
 
 #ini {
-    display: flex;
     width: 100%;
+    text-align: center;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.les {
+    display: block;
+    width: 33%;
     text-align: center;
 }
 
 .ciales{
-    width: 33%;
+    width: 100%;
     height: 300px;
 }
 
 #a ,#f ,#p {
     width: 50%;
 }
+
+#llama {
+    background-color: white;
+    color: rgb(226, 11, 11);
+    font-size: 30px;
+}
+
+#gota {
+    background-color: white;
+    color: rgb(0, 47, 255) ;
+    font-size: 30px;
+}
+
+#hoja {
+    background-color: white;
+    color: rgb(15, 112, 5);
+    font-size: 30px;
+}
+
 
 #a{
     background-color: aqua ;
@@ -194,7 +220,6 @@ background-image: url(../img/fondo.jpg);
     width: 8%;
 }
 
-
 @media screen and (max-width:1200px ){
 
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
@@ -220,6 +245,18 @@ background-image: url(../img/fondo.jpg);
     #art2 {
         width: 50%;
     }
+
+    #llama {
+        font-size: 25px;
+    }
+    
+    #gota {
+        font-size: 25px;
+    }
+    
+    #hoja {
+        font-size: 25px;
+    }
 }
 
 
@@ -235,5 +272,17 @@ background-image: url(../img/fondo.jpg);
     
     #art2 {
         width: 50%;
+    }
+
+    #llama {
+        font-size: 15px;
+    }
+    
+    #gota {
+        font-size: 15px;
+    }
+    
+    #hoja {
+        font-size: 15px;
     }
 }
