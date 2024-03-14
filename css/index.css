@@ -80,6 +80,10 @@
     width: 75%;
 }
 
+.art3 {
+    display: block;
+}
+
 .fuego {
     color: white;
     background-color: orange;
@@ -126,6 +130,7 @@ background-image: url(../img/fondo.jpg);
 .debi {
     width: 100%;
     display: flex;
+    text-align: center;
 }
 
 .evo {
@@ -223,16 +228,16 @@ background-image: url(../img/fondo.jpg);
 @media screen and (max-width:1200px ){
 
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
-        width: 20%;
+        width: 15%;
     }
 }
 
 @media screen and (max-width:800px ){
 
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
-        width: 50%;
+        width: 30%;
     }
-    
+
     .debi {
         width: 100%;
         display: block;
@@ -262,8 +267,12 @@ background-image: url(../img/fondo.jpg);
 
 @media screen and (max-width:600px ){
 
-    .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
+    .cold, .venom, .hada, .bicho, .fight, .plant , .zap , .sine, .wing, .water, .tierra , .rock , .fuego {
         width: 50%;
+    }
+
+    .text {
+        font-size: 15px;
     }
 
     #art1{
